@@ -1,12 +1,12 @@
 # Multiple Brother Devices: Multiple Vulnerabilities
 
 ## Overview
-[Rapid7](https://www.rapid7.com/) conducted a zero-day research project into multifunction printers (MFP) from [Brother Industries, Ltd](https://global.brother/en). This research resulted in the discovery of eight new vulnerabilities. Some or all of these vulnerabilities have been identified as affecting **over 640 models** across Brother’s range of printer, scanner, and label maker devices. A summary of the eight vulnerabilities is shown below:
+[Rapid7](https://www.rapid7.com/) conducted a zero-day research project into multifunction printers (MFP) from [Brother Industries, Ltd](https://global.brother/en). This research resulted in the discovery of eight new vulnerabilities. Some or all of these vulnerabilities have been identified as affecting **over 640 models** across Brother's range of printer, scanner, and label maker devices. A summary of the eight vulnerabilities is shown below:
 
 | CVE | Description | Affected Service | CVSS |
 |---|---|---|---|
 | [CVE-2024-51977](CVE-2024-51977.rb) | An unauthenticated attacker can leak sensitive information. | HTTP (Port 80), HTTPS (Port 443), IPP (Port 631) | [5.3 (Medium)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N) |
-| [CVE-2024-51978](CVE-2024-51978.rb) | An unauthenticated attacker can generate the device's default password. | HTTP (Port 80), HTTPS (Port 443), IPP (Port 631) | [9.8 (Critical)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H) |
+| [CVE-2024-51978](CVE-2024-51978.rb) | An unauthenticated attacker can generate the device's default administrator password. | HTTP (Port 80), HTTPS (Port 443), IPP (Port 631) | [9.8 (Critical)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H) |
 | [CVE-2024-51979](CVE-2024-51979.rb) | An authenticated attacker can trigger a stack based buffer overflow. | HTTP (Port 80), HTTPS (Port 443), IPP (Port 631) | [7.2 (High)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H) |
 | [CVE-2024-51980](CVE-2024-51980.rb) | An unauthenticated attacker can force the device to open a TCP connection. | Web Services over HTTP (Port 80) | [5.3 (Medium)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N) |
 | [CVE-2024-51981](CVE-2024-51981.rb) | An unauthenticated attacker can force the device to perform an arbitrary HTTP request. | Web Services over HTTP (Port 80) | [5.3 (Medium)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N) |
