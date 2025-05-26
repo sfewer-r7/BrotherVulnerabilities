@@ -15,7 +15,7 @@
 | CVE-2024-51984 | An authenticated attacker can disclose the password of a configured external service. | LDAP, FTP | [6.8 (Medium)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N) |
 
 ## Technical Analysis
-A detailed technical analysis of these vulnerabilities can be found in Rapid7's white paper titled [“Print Scan Hacks: Identifying multiple vulnerabilities across multiple Brother devices”](https://www.rapid7.com/globalassets/_pdfs/research/XXX.pdf).
+A detailed technical analysis of these vulnerabilities can be found in Rapid7's white paper [“Print Scan Hacks: Identifying multiple vulnerabilities across multiple Brother devices”](https://www.rapid7.com/globalassets/_pdfs/research/XXX.pdf).
 
 The accompanying proof of concept source code for the white paper can be found [here](https://github.com/sfewer-r7/BrotherVulnerabilities).
 
