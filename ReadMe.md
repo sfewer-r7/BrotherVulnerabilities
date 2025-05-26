@@ -12,7 +12,7 @@
 | [CVE-2024-51981](CVE-2024-51981.rb) | An unauthenticated attacker can force the device to perform an arbitrary HTTP request. | Web Services over HTTP (Port 80) | [5.3 (Medium)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N) |
 | [CVE-2024-51982](CVE-2024-51982.rb) | An unauthenticated attacker can crash the device. | PJL (Port 9100) | [7.5 (High)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H) |
 | [CVE-2024-51983](CVE-2024-51983.rb) | An unauthenticated attacker can crash the device. | Web Services over HTTP (Port 80) | [7.5 (High)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H) |
-| [CVE-2024-51984](CVE-2024-51984.rb) | An authenticated attacker can disclose the password of a configured external service. | LDAP, FTP | [6.8 (Medium)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N) |
+| CVE-2024-51984 | An authenticated attacker can disclose the password of a configured external service. | LDAP, FTP | [6.8 (Medium)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N) |
 
 ## Technical Analysis
 A detailed technical analysis of these vulnerabilities can be found in Rapid7's white paper titled [“Print Scan Hacks: Identifying multiple vulnerabilities across multiple Brother devices”](https://www.rapid7.com/globalassets/_pdfs/research/XXX.pdf).
