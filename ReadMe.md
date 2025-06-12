@@ -1,7 +1,7 @@
 # Multiple Brother Devices: Multiple Vulnerabilities
 
 ## Overview
-[Rapid7](https://www.rapid7.com/) conducted a zero-day research project into multifunction printers (MFP) from [Brother Industries, Ltd](https://global.brother/en). This research resulted in the discovery of eight new vulnerabilities. Some or all of these vulnerabilities have been identified as affecting **over 640 models** across Brother's range of printer, scanner, and label maker devices. A summary of the eight vulnerabilities is shown below:
+[Rapid7](https://www.rapid7.com/) conducted a zero-day research project into multifunction printers (MFP) from [Brother Industries, Ltd](https://global.brother/en). This research resulted in the discovery of eight new vulnerabilities. Some or all of these vulnerabilities have been identified as affecting 689 models across Brother’s range of printer, scanner, and label maker devices. Additionally, 46 printer models from FUJIFILM Business Innovation, 5 printer models from RICOH, and 2 printer models from Toshiba Tec are also affected by some or all of these vulnerabilities. In total, 742 models across 4 vendors are affected. A summary of the eight vulnerabilities is shown below:
 
 | CVE | Description | Affected Service | CVSS |
 |---|---|---|---|
