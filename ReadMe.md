@@ -16,6 +16,8 @@ A summary of the eight vulnerabilities is shown below:
 | [CVE-2024-51983](CVE-2024-51983.rb) | An unauthenticated attacker can crash the device. | Web Services over HTTP (Port 80) | [7.5 (High)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H) |
 | CVE-2024-51984 | An authenticated attacker can disclose the password of a configured external service. | LDAP, FTP | [6.8 (Medium)](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N) |
 
+For more details on this disclosure, please read the Rapid7 disclosure blog post [here](https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed/).
+
 ## Technical Analysis
 A detailed technical analysis of these vulnerabilities can be found in Rapid7's white paper ["Print Scan Hacks: Identifying multiple vulnerabilities across multiple Brother devices"](https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf) (PDF).
 
